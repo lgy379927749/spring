@@ -1,0 +1,261 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "name": "mysql.datasource.test1",
+      "type": "com.lgy.entity.DBConfig1"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "name": "mysql.datasource.test2",
+      "type": "com.lgy.entity.DBConfig2"
+    },
+    {
+      "sourceType": "com.lgy.datasource.DataSource1Config",
+      "name": "spring.datasource.test1",
+      "sourceMethod": "primaryDataSourceProperties()",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "sourceType": "com.lgy.datasource.DataSource1Config",
+      "name": "spring.datasource.test1",
+      "sourceMethod": "testDataSource(com.lgy.entity.DBConfig1)",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.xa",
+      "sourceMethod": "getXa()",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa"
+    },
+    {
+      "sourceType": "com.lgy.datasource.DataSource2Config",
+      "name": "spring.datasource.test2",
+      "sourceMethod": "testDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test1.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "name": "mysql.datasource.test1.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "name": "mysql.datasource.test1.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig1",
+      "name": "mysql.datasource.test1.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "defaultValue": 0,
+      "name": "mysql.datasource.test2.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "name": "mysql.datasource.test2.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "name": "mysql.datasource.test2.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lgy.entity.DBConfig2",
+      "name": "mysql.datasource.test2.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.continue-on-error",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.data",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.data-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.data-username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.generate-unique-name",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.jndi-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.platform",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.schema",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.schema-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.schema-username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.separator",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.sql-script-encoding",
+      "type": "java.nio.charset.Charset"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.url",
+      "description": "Description for spring.datasource.test1.url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "name": "spring.datasource.test1.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "name": "spring.datasource.test1.xa.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "name": "spring.datasource.test1.xa.properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}
